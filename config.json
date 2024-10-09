@@ -1,0 +1,9 @@
+{
+  "test_guild_id": "",
+  "log_channel_id": "",
+  "default_prefix": "!",
+  "default_cooldown": 3,
+  "default_quick_chat_cooldown": 5,
+  "dev_ids": [""],
+  "dev_igns": [""]
+}

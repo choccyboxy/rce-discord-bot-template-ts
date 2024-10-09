@@ -1,0 +1,27 @@
+{
+  "name": "rce-discord-bot-template-ts",
+  "version": "1.0.0",
+  "main": "build/index.js",
+  "scripts": {
+    "clean": "rm -rf build/",
+    "build": "tsc --build",
+    "dev": "npm run clean && npm run build && tsx watch src/*.ts",
+    "start": "npm run clean && npm run build && node ."
+  },
+  "keywords": [],
+  "author": "choccyboxy",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5",
+    "glob": "^11.0.0",
+    "pg": "^8.13.0",
+    "rce.js": "^2.6.2",
+    "sequelize": "^6.37.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.4",
+    "tsx": "^4.19.1"
+  }
+}
